@@ -55,6 +55,9 @@
                                 <state key="normal" title="Login">
                                     <color key="titleColor" red="0.90980392160000001" green="1" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="loginTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AbC-h2-eqo"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Form validation + XCTest demo by  github.com/sbarpit" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Le0-k3-XLY">
                                 <rect key="frame" x="21" y="823" width="372" height="29"/>
