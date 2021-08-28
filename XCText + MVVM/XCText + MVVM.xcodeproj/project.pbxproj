@@ -10,7 +10,6 @@
 		84464A6126DA02240067B4E6 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84464A6026DA02240067B4E6 /* UIViewController + Extension.swift */; };
 		84464A6526DA024C0067B4E6 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84464A6426DA024C0067B4E6 /* UserModel.swift */; };
 		84464A6B26DA02A10067B4E6 /* ValidationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84464A6A26DA02A10067B4E6 /* ValidationViewModel.swift */; };
-		848867F226DA093100F569F7 /* XCText___MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848867F126DA093100F569F7 /* XCText___MVVMTests.swift */; };
 		848867FC26DA099C00F569F7 /* ValidationServiceClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848867FB26DA099C00F569F7 /* ValidationServiceClass.swift */; };
 		84BA087026D399C7008CA4D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA086F26D399C7008CA4D1 /* AppDelegate.swift */; };
 		84BA087226D399C7008CA4D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA087126D399C7008CA4D1 /* SceneDelegate.swift */; };
@@ -35,7 +34,6 @@
 		84464A6426DA024C0067B4E6 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		84464A6A26DA02A10067B4E6 /* ValidationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationViewModel.swift; sourceTree = "<group>"; };
 		848867EF26DA093100F569F7 /* XCText + MVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XCText + MVVMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		848867F126DA093100F569F7 /* XCText___MVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCText___MVVMTests.swift"; sourceTree = "<group>"; };
 		848867F326DA093100F569F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		848867FB26DA099C00F569F7 /* ValidationServiceClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationServiceClass.swift; sourceTree = "<group>"; };
 		84BA086C26D399C7008CA4D1 /* XCText + MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XCText + MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,7 +92,6 @@
 		848867F026DA093100F569F7 /* XCText + MVVMTests */ = {
 			isa = PBXGroup;
 			children = (
-				848867F126DA093100F569F7 /* XCText___MVVMTests.swift */,
 				848867F326DA093100F569F7 /* Info.plist */,
 				848867FB26DA099C00F569F7 /* ValidationServiceClass.swift */,
 			);
@@ -235,7 +232,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848867F226DA093100F569F7 /* XCText___MVVMTests.swift in Sources */,
 				848867FC26DA099C00F569F7 /* ValidationServiceClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
